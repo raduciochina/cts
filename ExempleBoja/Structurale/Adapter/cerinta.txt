@@ -1,0 +1,10 @@
+D.P Adapter - includerea unei librarii intr-un proiect, adaptarea a doua librarii intr-un singur proiect
+-cele 2 entitati trebuie sa aiba un scop comun si sa difere ca sintaxa
+-adaptam interfata unei entitati la cealalta
+-se adapteaza fie la nivel de obiect fie la nivel de clasa
+-clasa adaptor ia o clasa deja existenta printr-o referinta (relatie has-a) si extinde clasa nou creata
+
+Pt dezvoltarea unui joc online (cu super-eroi) sa se dezvolte o solutie software care sa permita
+
+1. Utilizarea unei librarii externe ce contine caractere Disney
+- in prezent jocul contine caractere proprii care fac parte din framework-ul ACME

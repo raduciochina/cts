@@ -1,0 +1,8 @@
+* D.P Comportamentale.Command - scenariu folosit pt gestionarea task-urilor asincrone (functii ce se executau pe thread-uri secundare)
+Ceva ce se va intampla in viitor, nu stii cand exact, e cumva un future-action care are nevoie de anumite detalii.
+
+Exercitiu: Clientul jocului trebuie sa efectueze sarcini (task-uri) in fundal fara a interfera cu derularea jocului
+-back-up de date client
+-primeste actualizari pt forum
+-actualizari modele 3d
+-trebuie gasita o solutie prin care aceste task-uri sa fie executate fara a afecta executia jocului

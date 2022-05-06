@@ -1,0 +1,7 @@
+D.P Facade - simplifica accesul/realizare set minimal de actiuni facile
+
+Exercitiu:
+Pt. a permite altor companii/jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o libratrie
+- API-ul contine multe clase cu detalii
+- nu toate clasele sunt documentate
+- API-ul trebuie sa ofere o interfata simplificata pt un set de functii de baza

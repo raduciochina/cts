@@ -1,0 +1,10 @@
+D.P Factory
+Factory e legat de o familie de clase. Singleton si Builder sunt legata de o singura clasa
+- Implementarea unui mecanism centralizat prin care crearea obiectelor e transparenta pt client; prin interfata publica
+clientul stie cum sa creeze obiecte insa nu stie cum este implementat acest lucru;
+- Solutie poate sa fie extinsa prin adaugarea de noi tipuri concrete de obiecte fara a afecta codul existent
+- Complexitatea crearii obiectelor este ascunsa clientului;
+- Obiectele sunt referite printr-o interfata comuna; clasele concrete reprezinta o familie de obiecte definita in jurul interfetei comune;
+- Eliminarea dependentei codului clientului de crearea efectiva a obiectelor utilizate in solutie;
+
+Simple Factory e derivat din Factory Method

@@ -1,0 +1,10 @@
+D.P Observer -> observatori si observabil(are o colectie de observatori)
+cauza - reactiune
+event-uri
+Observatorii asteapta sa se intample event-ul
+Exercitiu: In timpul jocului clientul poate pierde conexiunea la server (din diferite motive).
+Cand acest lucru se intampla, diferitele module din joc trebuie sa reactioneze in consecinta
+- trebuie salvata instanta jocului
+- trebuie salvate atributele caracterului
+- trebuie notificat clientul
+- trebuie reincercata conexiunea

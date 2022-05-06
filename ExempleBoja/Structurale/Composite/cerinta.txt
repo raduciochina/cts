@@ -1,0 +1,7 @@
+D.P Composite - categorii/subcategorii
+-se pleaca cu solutia deja implementata din start
+-trb baza comuna
+
+Exercitiu: Pt. a gestiona o structura ierarhica cu caractere (ex. o armata sau un grup de playeri)
+- sa se gaseasca o solutie eficietna care sa permita gruparea jucatorilor
+- un grup poate contine caractere controlate de jucatori sau alte grupuri

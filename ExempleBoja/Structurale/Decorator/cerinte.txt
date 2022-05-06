@@ -1,0 +1,5 @@
+D.P Decorator - modificare la run-time a unor obiecte deja existente (la nivel de structura - adaugare atribute noi)
+Un decorator e o clasa wrapper de acelasi tip cu obiectul decorat(are o relatie de tip has-a cu obiectul pe care-l gestioneaza printr-o referinta)
+Exercitiu: Modificarea in timpul jocului a caracteristicilor unor super-eroi
+- in timpul jocului super-eroii pot fi dotati cu echipamente noi
+- comportamentul super-eroului se poate modifica dinamic in functie de interactiunea cu celelalte caractere din joc

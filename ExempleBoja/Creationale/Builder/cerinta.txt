@@ -1,0 +1,13 @@
+D.P Builder
+- Solutia trebuie sa construiasca obiecte complexe printr-un mecanism care este independent de procesul de realizare al obiectelor
+- Clientul construieste obiecte complexe specificand doar tipul si valoarea sa, fara a cunoaste detaliile interne ale obiectelui
+- Procesul de construie a obiectelor trebuie sa poate fi utilizat pt a defini obiecte diferita din aceeasi familie
+- Obiectele sunt gestionate prin interfata comuna
+- Instanta de tip Builder construieste obiectul insa tipul acestuia e definit de subclase
+
+AbstractBuilder - interfata abstracta ce defineste metodele prin care sunt construite parti al obiectului complex
+Builder - clasa concreta ce construieste partile si pe baza lor obiectul final
+Produs - clasa abstracta ce defineste obiectul complex ce este construit
+Director - clasa concreta ce construieste obiectul complex utilizand interfata de tip Builder
+
+--nu prea are treaba cu diagrama UML aferenta -> mergi pe V1

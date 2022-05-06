@@ -1,0 +1,13 @@
+D.P Singleton
+
+-Se doreste crearea unei SINGURE instante pt. o clasa prin care sa fie gestionata o resursa/un eveniment in mod CENTRALIZAT;
+-Solutia se bazeaza pe existenta unei singure instante ce poate fi create o singura data dar care poate fi referita de mai multe ori;
+-Asigura un singur punct de acces, vizibil global, la unica instanta;
+-Exemple: gestiune conexiune bd/alte resurse, mecanism de logging unic, manager evenimente, manager resurse vizuale, manager configurare
+-Toti constructorii sunt privati!
+
+private static Singleton instance - un atribut static, privat, de tipul clasei ce reprezinta instanta unica
+Singleton()  - un constructor privat (apelabil doar de clasa)
+public static Singleton getInstance() - o metoda publica ce da access la instanta unica, instanta unica e creata la primul apel al metodei
+
+Lazy instantiation - obiectul e creat atunci cand este necesar

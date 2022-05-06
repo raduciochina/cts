@@ -1,0 +1,3 @@
+D.P Comportamentale.Memento - utilizat pentru salvarea starii unui obiect(atributele/valorile obiectului)
+Exercitiu : Jucatorii au posibilitatea sa salveze starea jocului si sa o restaureze mai tarziu
+- jucatorul poate relua jocul dintr-un anumit punct
